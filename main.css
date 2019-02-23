@@ -1,7 +1,18 @@
 .todoDiv {
   text: lightblue;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  list-style: none;
+
+
+
   /* float: right; */
   /* background-color: blue; */
+}
+
+.toDoHeader {
+text-align: center;
 
 }
 
