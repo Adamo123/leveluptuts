@@ -61,4 +61,4 @@ When you have that working, modify your program to print "FizzBuzz" for numbers 
 
 let character = "#";
 let grid = ` ` + ${character};
-console.log(character); 
+console.log(character);
