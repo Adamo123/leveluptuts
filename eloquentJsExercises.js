@@ -60,28 +60,52 @@ When you have that working, modify your program to print "FizzBuzz" for numbers 
 // When you have a program that generates this pattern, define a binding size = 8 and change the program so that it works for any size, outputting a grid of the given width and height.
 
 
+// let size = 8;
+//
+// let board = "";
+//
+// for (let y = 0; y < size; y++){
+//   for (let x = 0; x < size; x++) {
+//     if ((x + y) % 2 == 0) {
+//       board += " ";
+//     }
+//     else {
+//       board += "#";
+//     }
+//
+//   }
+//   board += "\n";
+//
+//
+// }
+//
+// console.log(board);
+
 let size = 8;
+
+// This is smart because it will be used as a reference once inside the for loop.
 
 let board = "";
 
-for (let y = 0; y < size; y++){
-  for (let x = 0; x < size; x++) {
-    if ((x + y) % 2 == 0) {
-      board += " ";
-    }
-    else {
-      board += "#";
-    }
+// He looks at this in terms of x and y which make sense. So to build the y part (or height), he starts a for loop
 
+for (y = 0; y < size; y++) {
+
+// Now each line (width) has to build itself too...so...
+
+for (x = 0; x < size; x++) {
+  if ((x + y) % 2 == 0){
+    board = board + " ";
   }
-  board += "\n";
+  else {
+    board = board + "#";
+  }
 
-
+}
+board += "\n"
 }
 
 console.log(board);
-
-
 
 
 
