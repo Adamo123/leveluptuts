@@ -90,23 +90,30 @@
 
 // That was easy...now the harder stuff
 
-const even = function isEven(num) {
+// const even = function isEven(num) {
+//
+//   num *= -1;
+//
+//   if (num == 0) {
+//     return true;
+//   }
+//   else if (num == 1) {
+//     return false;
+//   }
+//   else {
+//     return isEven (num - 2);
+//
+//   }
+// }
+//
+// console.log(even(-1));
 
-  num *= -1;
+const beans = function countBs {
+  for (i=0; i < string.length; i ++) {
 
-  if (num == 0) {
-    return true;
-  }
-  else if (num == 1) {
-    return false;
-  }
-  else {
-    return isEven (num - 2);
-
+    
   }
 }
-
-console.log(even(-1));
 
 
 
