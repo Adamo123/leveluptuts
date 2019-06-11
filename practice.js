@@ -15,4 +15,27 @@ for (let n = 1; n <= 100; n++) {
   if (n % 5 == 0) output += "Buzz";
   console.log(output || n);
 }
-// read up on empty strings and booleans and the "Short circuiting of logical operators" 
+// read up on empty strings and booleans and the "Short circuiting of logical operators"
+
+// Your code here
+for (let height = 0; height < 8; height++) {
+	let width = "#";
+  		for  (i = 0; i < 8; i++) {
+  			if (width = " ") {
+              width = "#";
+
+    	}
+          else {
+         width += " ";
+
+           }
+
+
+
+
+  }
+
+console.log (width);
+
+
+}
